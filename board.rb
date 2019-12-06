@@ -38,6 +38,7 @@ class Board
     def place_numbers
         grid.each do |row|
             row.each do |tile|
+                #debugger
                 adjacent_mines = 0
                 tile.neighbors.each {|neighbor| adjacent_mines += 1 if neighbor.mine == true}
                 tile.value = adjacent_mines.to_s if adjacent_mines > 0 && tile.mine == false
@@ -52,7 +53,11 @@ class Board
         end
         puts
     end
-    private
+    
+    def find_tile(y, x)
+        grid[y][x]
+    end
+
     def reveal_all
         grid.each do |row|
             row.each {|tile| tile.reveal}
@@ -61,13 +66,3 @@ class Board
 
     attr_accessor :grid
 end
-
-a = Board.new(9)
-a.render
-a.place_mines
-a.render
-a.find_neighbors
-a.place_numbers
-a.render
-a.reveal_all
-a.render

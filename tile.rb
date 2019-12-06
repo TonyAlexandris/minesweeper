@@ -1,12 +1,13 @@
-
+require "byebug"
 class Tile
-    attr_accessor :mine, :value, :face_value, :neighbors, :revealed
+    attr_accessor :mine, :value, :face_value, :revealed, :neighbors, :checked
     def initialize
         @mine = false
         @face_value = "*"
         @value = "O"
         @neighbors = []
         @revealed = false
+        @checked = false
     end
 
     def flag
@@ -18,8 +19,10 @@ class Tile
     end
 
     def reveal
-        @face_value = ""
-        @face_value += value
-        @revealed = true
+        if @face_value == "*"   
+            @face_value = ""
+            @face_value += value
+            @revealed = true
+        end
     end
 end
