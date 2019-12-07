@@ -91,8 +91,8 @@ class Minesweeper
     end
 
     def get_coordinates
-        puts "Enter coordinates separated by comma y,x"
-        coordinates = gets.chomp.split(",").map {|coord| coord.to_i}
+        puts "Enter coordinates like 00"
+        coordinates = gets.chomp.split("").map {|coord| coord.to_i}
         return coordinates 
     end
 
