@@ -1,10 +1,12 @@
 require_relative "board"
 require_relative "tile"
 require "byebug"
+require 'yaml'
 class Minesweeper
-    attr_accessor :board
+    attr_accessor :board, :saves
     def initialize(size)
         @board = Board.new(size)
+        @saves = 0
     end
 
     def run
@@ -21,6 +23,22 @@ class Minesweeper
     def play_turn
         board.render
         move = self.get_move
+        if move == "s"
+            @saves += 1
+            save = []
+            board.grid.each do |row|
+                row.each {|tile| save << tile}
+            end
+            File.open("save.yml", "w") {|file| file.write(save.to_yaml)}
+            self.get_move
+        elsif move == "l"
+            load = YAML.load(File.read("save.yml"))
+            board.grid.each do |row|
+                row.map! {|tile| load.shift}
+            end
+            board.render
+            self.get_move
+        end
         coordinates = self.get_coordinates
         y = coordinates[0]
         x = coordinates[1]
@@ -39,9 +57,18 @@ class Minesweeper
     def explore(tile)
         tile.reveal
         if tile.value == "@"
-            board.reveal_all
             board.render
-            abort "You lose"
+            puts "You lose"
+            if saves > 0
+                load = YAML.load(File.read("save.yml"))    
+                board.grid.each do |row|
+                    row.map! {|tile| load.shift}
+                end
+                board.render
+                self.get_move            
+            else
+                abort "Save next time"
+            end
         else
             if tile.value == "O" && tile.checked == false
                 tile.checked = true
@@ -53,9 +80,9 @@ class Minesweeper
     end
 
     def get_move
-        puts "Enter f to flag or r to reveal"
+        puts "Enter f to flag or r to reveal or s to save or l to load"
         choice = gets.chomp
-        if choice == "f" || choice == "r"
+        if choice == "f" || choice == "r" || choice == "s" || choice == "l"
             return choice
         else
             puts "Invalid move"

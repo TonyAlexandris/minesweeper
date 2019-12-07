@@ -1,0 +1,1112 @@
+---
+- &74 !ruby/object:Tile
+  mine: false
+  face_value: O
+  value: O
+  neighbors:
+  - &75 !ruby/object:Tile
+    mine: false
+    face_value: O
+    value: O
+    neighbors:
+    - &76 !ruby/object:Tile
+      mine: false
+      face_value: O
+      value: O
+      neighbors:
+      - &77 !ruby/object:Tile
+        mine: false
+        face_value: O
+        value: O
+        neighbors:
+        - &78 !ruby/object:Tile
+          mine: false
+          face_value: O
+          value: O
+          neighbors:
+          - &79 !ruby/object:Tile
+            mine: false
+            face_value: O
+            value: O
+            neighbors:
+            - &80 !ruby/object:Tile
+              mine: false
+              face_value: O
+              value: O
+              neighbors:
+              - &1 !ruby/object:Tile
+                mine: false
+                face_value: O
+                value: O
+                neighbors:
+                - &81 !ruby/object:Tile
+                  mine: false
+                  face_value: O
+                  value: O
+                  neighbors:
+                  - *1
+                  - &2 !ruby/object:Tile
+                    mine: false
+                    face_value: O
+                    value: O
+                    neighbors:
+                    - &3 !ruby/object:Tile
+                      mine: false
+                      face_value: O
+                      value: O
+                      neighbors:
+                      - *2
+                      - &4 !ruby/object:Tile
+                        mine: false
+                        face_value: O
+                        value: O
+                        neighbors:
+                        - *3
+                        - &5 !ruby/object:Tile
+                          mine: false
+                          face_value: O
+                          value: O
+                          neighbors:
+                          - *4
+                          - &6 !ruby/object:Tile
+                            mine: false
+                            face_value: '1'
+                            value: '1'
+                            neighbors:
+                            - *5
+                            - &7 !ruby/object:Tile
+                              mine: false
+                              face_value: '2'
+                              value: '2'
+                              neighbors:
+                              - *6
+                              - &8 !ruby/object:Tile
+                                mine: false
+                                face_value: '2'
+                                value: '2'
+                                neighbors:
+                                - *7
+                                - &9 !ruby/object:Tile
+                                  mine: false
+                                  face_value: '1'
+                                  value: '1'
+                                  neighbors:
+                                  - *8
+                                  - &73 !ruby/object:Tile
+                                    mine: false
+                                    face_value: O
+                                    value: O
+                                    neighbors:
+                                    - *9
+                                    - &65 !ruby/object:Tile
+                                      mine: false
+                                      face_value: O
+                                      value: O
+                                      neighbors:
+                                      - &66 !ruby/object:Tile
+                                        mine: false
+                                        face_value: '1'
+                                        value: '1'
+                                        neighbors:
+                                        - &67 !ruby/object:Tile
+                                          mine: true
+                                          face_value: "*"
+                                          value: "@"
+                                          neighbors:
+                                          - &68 !ruby/object:Tile
+                                            mine: true
+                                            face_value: "*"
+                                            value: "@"
+                                            neighbors:
+                                            - &69 !ruby/object:Tile
+                                              mine: false
+                                              face_value: '1'
+                                              value: '1'
+                                              neighbors:
+                                              - &70 !ruby/object:Tile
+                                                mine: false
+                                                face_value: O
+                                                value: O
+                                                neighbors:
+                                                - &71 !ruby/object:Tile
+                                                  mine: false
+                                                  face_value: O
+                                                  value: O
+                                                  neighbors:
+                                                  - &10 !ruby/object:Tile
+                                                    mine: false
+                                                    face_value: O
+                                                    value: O
+                                                    neighbors:
+                                                    - &72 !ruby/object:Tile
+                                                      mine: false
+                                                      face_value: O
+                                                      value: O
+                                                      neighbors:
+                                                      - *10
+                                                      - &11 !ruby/object:Tile
+                                                        mine: false
+                                                        face_value: '1'
+                                                        value: '1'
+                                                        neighbors:
+                                                        - &12 !ruby/object:Tile
+                                                          mine: false
+                                                          face_value: '2'
+                                                          value: '2'
+                                                          neighbors:
+                                                          - *11
+                                                          - &13 !ruby/object:Tile
+                                                            mine: false
+                                                            face_value: '1'
+                                                            value: '1'
+                                                            neighbors:
+                                                            - *12
+                                                            - &14 !ruby/object:Tile
+                                                              mine: false
+                                                              face_value: '1'
+                                                              value: '1'
+                                                              neighbors:
+                                                              - *13
+                                                              - &15 !ruby/object:Tile
+                                                                mine: false
+                                                                face_value: '1'
+                                                                value: '1'
+                                                                neighbors:
+                                                                - *14
+                                                                - &16 !ruby/object:Tile
+                                                                  mine: false
+                                                                  face_value: '2'
+                                                                  value: '2'
+                                                                  neighbors:
+                                                                  - *15
+                                                                  - &17 !ruby/object:Tile
+                                                                    mine: false
+                                                                    face_value: '2'
+                                                                    value: '2'
+                                                                    neighbors:
+                                                                    - *16
+                                                                    - &18 !ruby/object:Tile
+                                                                      mine: false
+                                                                      face_value: '1'
+                                                                      value: '1'
+                                                                      neighbors:
+                                                                      - *17
+                                                                      - &64 !ruby/object:Tile
+                                                                        mine: false
+                                                                        face_value: O
+                                                                        value: O
+                                                                        neighbors:
+                                                                        - *18
+                                                                        - &56 !ruby/object:Tile
+                                                                          mine: false
+                                                                          face_value: O
+                                                                          value: O
+                                                                          neighbors:
+                                                                          - &57 !ruby/object:Tile
+                                                                            mine: false
+                                                                            face_value: O
+                                                                            value: O
+                                                                            neighbors:
+                                                                            - &58 !ruby/object:Tile
+                                                                              mine: false
+                                                                              face_value: O
+                                                                              value: O
+                                                                              neighbors:
+                                                                              - &59 !ruby/object:Tile
+                                                                                mine: false
+                                                                                face_value: O
+                                                                                value: O
+                                                                                neighbors:
+                                                                                - &60 !ruby/object:Tile
+                                                                                  mine: false
+                                                                                  face_value: '1'
+                                                                                  value: '1'
+                                                                                  neighbors:
+                                                                                  - &61 !ruby/object:Tile
+                                                                                    mine: false
+                                                                                    face_value: "*"
+                                                                                    value: '2'
+                                                                                    neighbors:
+                                                                                    - &62 !ruby/object:Tile
+                                                                                      mine: true
+                                                                                      face_value: "*"
+                                                                                      value: "@"
+                                                                                      neighbors:
+                                                                                      - &19 !ruby/object:Tile
+                                                                                        mine: false
+                                                                                        face_value: "*"
+                                                                                        value: '2'
+                                                                                        neighbors:
+                                                                                        - &63 !ruby/object:Tile
+                                                                                          mine: true
+                                                                                          face_value: "*"
+                                                                                          value: "@"
+                                                                                          neighbors:
+                                                                                          - *19
+                                                                                          - &20 !ruby/object:Tile
+                                                                                            mine: false
+                                                                                            face_value: "*"
+                                                                                            value: '1'
+                                                                                            neighbors:
+                                                                                            - &21 !ruby/object:Tile
+                                                                                              mine: false
+                                                                                              face_value: "*"
+                                                                                              value: '2'
+                                                                                              neighbors:
+                                                                                              - *20
+                                                                                              - &22 !ruby/object:Tile
+                                                                                                mine: false
+                                                                                                face_value: "*"
+                                                                                                value: '2'
+                                                                                                neighbors:
+                                                                                                - *21
+                                                                                                - &23 !ruby/object:Tile
+                                                                                                  mine: true
+                                                                                                  face_value: "*"
+                                                                                                  value: "@"
+                                                                                                  neighbors:
+                                                                                                  - *22
+                                                                                                  - &24 !ruby/object:Tile
+                                                                                                    mine: false
+                                                                                                    face_value: '1'
+                                                                                                    value: '1'
+                                                                                                    neighbors:
+                                                                                                    - *23
+                                                                                                    - &25 !ruby/object:Tile
+                                                                                                      mine: false
+                                                                                                      face_value: O
+                                                                                                      value: O
+                                                                                                      neighbors:
+                                                                                                      - *24
+                                                                                                      - &26 !ruby/object:Tile
+                                                                                                        mine: false
+                                                                                                        face_value: O
+                                                                                                        value: O
+                                                                                                        neighbors:
+                                                                                                        - *25
+                                                                                                        - &27 !ruby/object:Tile
+                                                                                                          mine: false
+                                                                                                          face_value: O
+                                                                                                          value: O
+                                                                                                          neighbors:
+                                                                                                          - *26
+                                                                                                          - &55 !ruby/object:Tile
+                                                                                                            mine: false
+                                                                                                            face_value: O
+                                                                                                            value: O
+                                                                                                            neighbors:
+                                                                                                            - *27
+                                                                                                            - &46 !ruby/object:Tile
+                                                                                                              mine: false
+                                                                                                              face_value: O
+                                                                                                              value: O
+                                                                                                              neighbors:
+                                                                                                              - &47 !ruby/object:Tile
+                                                                                                                mine: false
+                                                                                                                face_value: O
+                                                                                                                value: O
+                                                                                                                neighbors:
+                                                                                                                - &48 !ruby/object:Tile
+                                                                                                                  mine: false
+                                                                                                                  face_value: '1'
+                                                                                                                  value: '1'
+                                                                                                                  neighbors:
+                                                                                                                  - &49 !ruby/object:Tile
+                                                                                                                    mine: false
+                                                                                                                    face_value: '2'
+                                                                                                                    value: '2'
+                                                                                                                    neighbors:
+                                                                                                                    - &50 !ruby/object:Tile
+                                                                                                                      mine: false
+                                                                                                                      face_value: '3'
+                                                                                                                      value: '3'
+                                                                                                                      neighbors:
+                                                                                                                      - &51 !ruby/object:Tile
+                                                                                                                        mine: false
+                                                                                                                        face_value: "*"
+                                                                                                                        value: '2'
+                                                                                                                        neighbors:
+                                                                                                                        - &52 !ruby/object:Tile
+                                                                                                                          mine: false
+                                                                                                                          face_value: "*"
+                                                                                                                          value: '1'
+                                                                                                                          neighbors:
+                                                                                                                          - &28 !ruby/object:Tile
+                                                                                                                            mine: false
+                                                                                                                            face_value: "*"
+                                                                                                                            value: O
+                                                                                                                            neighbors:
+                                                                                                                            - &54 !ruby/object:Tile
+                                                                                                                              mine: false
+                                                                                                                              face_value: "*"
+                                                                                                                              value: O
+                                                                                                                              neighbors:
+                                                                                                                              - *28
+                                                                                                                              - &29 !ruby/object:Tile
+                                                                                                                                mine: false
+                                                                                                                                face_value: "*"
+                                                                                                                                value: '1'
+                                                                                                                                neighbors:
+                                                                                                                                - &30 !ruby/object:Tile
+                                                                                                                                  mine: false
+                                                                                                                                  face_value: "*"
+                                                                                                                                  value: '2'
+                                                                                                                                  neighbors:
+                                                                                                                                  - *29
+                                                                                                                                  - &31 !ruby/object:Tile
+                                                                                                                                    mine: false
+                                                                                                                                    face_value: "*"
+                                                                                                                                    value: '2'
+                                                                                                                                    neighbors:
+                                                                                                                                    - *30
+                                                                                                                                    - &32 !ruby/object:Tile
+                                                                                                                                      mine: false
+                                                                                                                                      face_value: "*"
+                                                                                                                                      value: '2'
+                                                                                                                                      neighbors:
+                                                                                                                                      - *31
+                                                                                                                                      - &33 !ruby/object:Tile
+                                                                                                                                        mine: true
+                                                                                                                                        face_value: "*"
+                                                                                                                                        value: "@"
+                                                                                                                                        neighbors:
+                                                                                                                                        - *32
+                                                                                                                                        - &34 !ruby/object:Tile
+                                                                                                                                          mine: true
+                                                                                                                                          face_value: "*"
+                                                                                                                                          value: "@"
+                                                                                                                                          neighbors:
+                                                                                                                                          - *33
+                                                                                                                                          - &35 !ruby/object:Tile
+                                                                                                                                            mine: false
+                                                                                                                                            face_value: '1'
+                                                                                                                                            value: '1'
+                                                                                                                                            neighbors:
+                                                                                                                                            - *34
+                                                                                                                                            - &36 !ruby/object:Tile
+                                                                                                                                              mine: false
+                                                                                                                                              face_value: O
+                                                                                                                                              value: O
+                                                                                                                                              neighbors:
+                                                                                                                                              - *35
+                                                                                                                                              - &45 !ruby/object:Tile
+                                                                                                                                                mine: false
+                                                                                                                                                face_value: O
+                                                                                                                                                value: O
+                                                                                                                                                neighbors:
+                                                                                                                                                - *36
+                                                                                                                                                - &44 !ruby/object:Tile
+                                                                                                                                                  mine: false
+                                                                                                                                                  face_value: O
+                                                                                                                                                  value: O
+                                                                                                                                                  neighbors:
+                                                                                                                                                  - &43 !ruby/object:Tile
+                                                                                                                                                    mine: false
+                                                                                                                                                    face_value: O
+                                                                                                                                                    value: O
+                                                                                                                                                    neighbors:
+                                                                                                                                                    - &42 !ruby/object:Tile
+                                                                                                                                                      mine: false
+                                                                                                                                                      face_value: '1'
+                                                                                                                                                      value: '1'
+                                                                                                                                                      neighbors:
+                                                                                                                                                      - &41 !ruby/object:Tile
+                                                                                                                                                        mine: false
+                                                                                                                                                        face_value: "*"
+                                                                                                                                                        value: '2'
+                                                                                                                                                        neighbors:
+                                                                                                                                                        - &40 !ruby/object:Tile
+                                                                                                                                                          mine: false
+                                                                                                                                                          face_value: "*"
+                                                                                                                                                          value: '2'
+                                                                                                                                                          neighbors:
+                                                                                                                                                          - &39 !ruby/object:Tile
+                                                                                                                                                            mine: false
+                                                                                                                                                            face_value: "*"
+                                                                                                                                                            value: '2'
+                                                                                                                                                            neighbors:
+                                                                                                                                                            - &38 !ruby/object:Tile
+                                                                                                                                                              mine: true
+                                                                                                                                                              face_value: "*"
+                                                                                                                                                              value: "@"
+                                                                                                                                                              neighbors:
+                                                                                                                                                              - &37 !ruby/object:Tile
+                                                                                                                                                                mine: true
+                                                                                                                                                                face_value: "*"
+                                                                                                                                                                value: "@"
+                                                                                                                                                                neighbors:
+                                                                                                                                                                - &53 !ruby/object:Tile
+                                                                                                                                                                  mine: false
+                                                                                                                                                                  face_value: "*"
+                                                                                                                                                                  value: '1'
+                                                                                                                                                                  neighbors:
+                                                                                                                                                                  - *37
+                                                                                                                                                                  - *29
+                                                                                                                                                                  - *30
+                                                                                                                                                                  revealed: false
+                                                                                                                                                                  checked: false
+                                                                                                                                                                - *38
+                                                                                                                                                                - *30
+                                                                                                                                                                - *29
+                                                                                                                                                                - *31
+                                                                                                                                                                revealed: false
+                                                                                                                                                                checked: false
+                                                                                                                                                              - *39
+                                                                                                                                                              - *31
+                                                                                                                                                              - *30
+                                                                                                                                                              - *32
+                                                                                                                                                              revealed: false
+                                                                                                                                                              checked: false
+                                                                                                                                                            - *40
+                                                                                                                                                            - *32
+                                                                                                                                                            - *31
+                                                                                                                                                            - *33
+                                                                                                                                                            revealed: false
+                                                                                                                                                            checked: false
+                                                                                                                                                          - *41
+                                                                                                                                                          - *33
+                                                                                                                                                          - *32
+                                                                                                                                                          - *34
+                                                                                                                                                          revealed: false
+                                                                                                                                                          checked: false
+                                                                                                                                                        - *42
+                                                                                                                                                        - *34
+                                                                                                                                                        - *33
+                                                                                                                                                        - *35
+                                                                                                                                                        revealed: false
+                                                                                                                                                        checked: false
+                                                                                                                                                      - *43
+                                                                                                                                                      - *35
+                                                                                                                                                      - *34
+                                                                                                                                                      - *36
+                                                                                                                                                      revealed: true
+                                                                                                                                                      checked: false
+                                                                                                                                                    - *44
+                                                                                                                                                    - *36
+                                                                                                                                                    - *35
+                                                                                                                                                    - *45
+                                                                                                                                                    revealed: true
+                                                                                                                                                    checked: true
+                                                                                                                                                  - *45
+                                                                                                                                                  - *36
+                                                                                                                                                  revealed: true
+                                                                                                                                                  checked: true
+                                                                                                                                                - *46
+                                                                                                                                                - *43
+                                                                                                                                                - *47
+                                                                                                                                                revealed: true
+                                                                                                                                                checked: true
+                                                                                                                                              - *43
+                                                                                                                                              - *47
+                                                                                                                                              - *42
+                                                                                                                                              - *44
+                                                                                                                                              - *48
+                                                                                                                                              - *46
+                                                                                                                                              revealed: true
+                                                                                                                                              checked: true
+                                                                                                                                            - *42
+                                                                                                                                            - *48
+                                                                                                                                            - *41
+                                                                                                                                            - *43
+                                                                                                                                            - *49
+                                                                                                                                            - *47
+                                                                                                                                            revealed: true
+                                                                                                                                            checked: false
+                                                                                                                                          - *41
+                                                                                                                                          - *49
+                                                                                                                                          - *40
+                                                                                                                                          - *42
+                                                                                                                                          - *50
+                                                                                                                                          - *48
+                                                                                                                                          revealed: false
+                                                                                                                                          checked: false
+                                                                                                                                        - *40
+                                                                                                                                        - *50
+                                                                                                                                        - *39
+                                                                                                                                        - *41
+                                                                                                                                        - *51
+                                                                                                                                        - *49
+                                                                                                                                        revealed: false
+                                                                                                                                        checked: false
+                                                                                                                                      - *39
+                                                                                                                                      - *51
+                                                                                                                                      - *38
+                                                                                                                                      - *40
+                                                                                                                                      - *52
+                                                                                                                                      - *50
+                                                                                                                                      revealed: false
+                                                                                                                                      checked: false
+                                                                                                                                    - *38
+                                                                                                                                    - *52
+                                                                                                                                    - *37
+                                                                                                                                    - *39
+                                                                                                                                    - *28
+                                                                                                                                    - *51
+                                                                                                                                    revealed: false
+                                                                                                                                    checked: false
+                                                                                                                                  - *37
+                                                                                                                                  - *28
+                                                                                                                                  - *53
+                                                                                                                                  - *38
+                                                                                                                                  - *54
+                                                                                                                                  - *52
+                                                                                                                                  revealed: false
+                                                                                                                                  checked: false
+                                                                                                                                - *53
+                                                                                                                                - *54
+                                                                                                                                - *37
+                                                                                                                                - *28
+                                                                                                                                revealed: false
+                                                                                                                                checked: false
+                                                                                                                              - *20
+                                                                                                                              - *30
+                                                                                                                              - *21
+                                                                                                                              revealed: false
+                                                                                                                              checked: false
+                                                                                                                            - *52
+                                                                                                                            - *30
+                                                                                                                            - *21
+                                                                                                                            - *29
+                                                                                                                            - *31
+                                                                                                                            - *20
+                                                                                                                            - *22
+                                                                                                                            revealed: false
+                                                                                                                            checked: false
+                                                                                                                          - *51
+                                                                                                                          - *31
+                                                                                                                          - *22
+                                                                                                                          - *30
+                                                                                                                          - *32
+                                                                                                                          - *21
+                                                                                                                          - *23
+                                                                                                                          revealed: false
+                                                                                                                          checked: false
+                                                                                                                        - *50
+                                                                                                                        - *32
+                                                                                                                        - *23
+                                                                                                                        - *31
+                                                                                                                        - *33
+                                                                                                                        - *22
+                                                                                                                        - *24
+                                                                                                                        revealed: false
+                                                                                                                        checked: false
+                                                                                                                      - *49
+                                                                                                                      - *33
+                                                                                                                      - *24
+                                                                                                                      - *32
+                                                                                                                      - *34
+                                                                                                                      - *23
+                                                                                                                      - *25
+                                                                                                                      revealed: true
+                                                                                                                      checked: false
+                                                                                                                    - *48
+                                                                                                                    - *34
+                                                                                                                    - *25
+                                                                                                                    - *33
+                                                                                                                    - *35
+                                                                                                                    - *24
+                                                                                                                    - *26
+                                                                                                                    revealed: true
+                                                                                                                    checked: false
+                                                                                                                  - *47
+                                                                                                                  - *35
+                                                                                                                  - *26
+                                                                                                                  - *34
+                                                                                                                  - *36
+                                                                                                                  - *25
+                                                                                                                  - *27
+                                                                                                                  revealed: true
+                                                                                                                  checked: false
+                                                                                                                - *46
+                                                                                                                - *36
+                                                                                                                - *27
+                                                                                                                - *35
+                                                                                                                - *45
+                                                                                                                - *26
+                                                                                                                - *55
+                                                                                                                revealed: true
+                                                                                                                checked: true
+                                                                                                              - *45
+                                                                                                              - *55
+                                                                                                              - *36
+                                                                                                              - *27
+                                                                                                              revealed: true
+                                                                                                              checked: true
+                                                                                                            - *56
+                                                                                                            - *47
+                                                                                                            - *57
+                                                                                                            revealed: true
+                                                                                                            checked: true
+                                                                                                          - *47
+                                                                                                          - *57
+                                                                                                          - *48
+                                                                                                          - *46
+                                                                                                          - *58
+                                                                                                          - *56
+                                                                                                          revealed: true
+                                                                                                          checked: true
+                                                                                                        - *48
+                                                                                                        - *58
+                                                                                                        - *49
+                                                                                                        - *47
+                                                                                                        - *59
+                                                                                                        - *57
+                                                                                                        revealed: true
+                                                                                                        checked: true
+                                                                                                      - *49
+                                                                                                      - *59
+                                                                                                      - *50
+                                                                                                      - *48
+                                                                                                      - *60
+                                                                                                      - *58
+                                                                                                      revealed: true
+                                                                                                      checked: true
+                                                                                                    - *50
+                                                                                                    - *60
+                                                                                                    - *51
+                                                                                                    - *49
+                                                                                                    - *61
+                                                                                                    - *59
+                                                                                                    revealed: true
+                                                                                                    checked: false
+                                                                                                  - *51
+                                                                                                  - *61
+                                                                                                  - *52
+                                                                                                  - *50
+                                                                                                  - *62
+                                                                                                  - *60
+                                                                                                  revealed: false
+                                                                                                  checked: false
+                                                                                                - *52
+                                                                                                - *62
+                                                                                                - *28
+                                                                                                - *51
+                                                                                                - *19
+                                                                                                - *61
+                                                                                                revealed: false
+                                                                                                checked: false
+                                                                                              - *28
+                                                                                              - *19
+                                                                                              - *54
+                                                                                              - *52
+                                                                                              - *63
+                                                                                              - *62
+                                                                                              revealed: false
+                                                                                              checked: false
+                                                                                            - *54
+                                                                                            - *63
+                                                                                            - *28
+                                                                                            - *19
+                                                                                            revealed: false
+                                                                                            checked: false
+                                                                                          - *11
+                                                                                          - *21
+                                                                                          - *12
+                                                                                          revealed: false
+                                                                                          checked: false
+                                                                                        - *62
+                                                                                        - *21
+                                                                                        - *12
+                                                                                        - *20
+                                                                                        - *22
+                                                                                        - *11
+                                                                                        - *13
+                                                                                        revealed: false
+                                                                                        checked: false
+                                                                                      - *61
+                                                                                      - *22
+                                                                                      - *13
+                                                                                      - *21
+                                                                                      - *23
+                                                                                      - *12
+                                                                                      - *14
+                                                                                      revealed: false
+                                                                                      checked: false
+                                                                                    - *60
+                                                                                    - *23
+                                                                                    - *14
+                                                                                    - *22
+                                                                                    - *24
+                                                                                    - *13
+                                                                                    - *15
+                                                                                    revealed: false
+                                                                                    checked: false
+                                                                                  - *59
+                                                                                  - *24
+                                                                                  - *15
+                                                                                  - *23
+                                                                                  - *25
+                                                                                  - *14
+                                                                                  - *16
+                                                                                  revealed: true
+                                                                                  checked: false
+                                                                                - *58
+                                                                                - *25
+                                                                                - *16
+                                                                                - *24
+                                                                                - *26
+                                                                                - *15
+                                                                                - *17
+                                                                                revealed: true
+                                                                                checked: true
+                                                                              - *57
+                                                                              - *26
+                                                                              - *17
+                                                                              - *25
+                                                                              - *27
+                                                                              - *16
+                                                                              - *18
+                                                                              revealed: true
+                                                                              checked: true
+                                                                            - *56
+                                                                            - *27
+                                                                            - *18
+                                                                            - *26
+                                                                            - *55
+                                                                            - *17
+                                                                            - *64
+                                                                            revealed: true
+                                                                            checked: true
+                                                                          - *55
+                                                                          - *64
+                                                                          - *27
+                                                                          - *18
+                                                                          revealed: true
+                                                                          checked: true
+                                                                        - *65
+                                                                        - *57
+                                                                        - *66
+                                                                        revealed: true
+                                                                        checked: true
+                                                                      - *57
+                                                                      - *66
+                                                                      - *58
+                                                                      - *56
+                                                                      - *67
+                                                                      - *65
+                                                                      revealed: true
+                                                                      checked: false
+                                                                    - *58
+                                                                    - *67
+                                                                    - *59
+                                                                    - *57
+                                                                    - *68
+                                                                    - *66
+                                                                    revealed: true
+                                                                    checked: false
+                                                                  - *59
+                                                                  - *68
+                                                                  - *60
+                                                                  - *58
+                                                                  - *69
+                                                                  - *67
+                                                                  revealed: true
+                                                                  checked: false
+                                                                - *60
+                                                                - *69
+                                                                - *61
+                                                                - *59
+                                                                - *70
+                                                                - *68
+                                                                revealed: true
+                                                                checked: false
+                                                              - *61
+                                                              - *70
+                                                              - *62
+                                                              - *60
+                                                              - *71
+                                                              - *69
+                                                              revealed: true
+                                                              checked: false
+                                                            - *62
+                                                            - *71
+                                                            - *19
+                                                            - *61
+                                                            - *10
+                                                            - *70
+                                                            revealed: true
+                                                            checked: false
+                                                          - *19
+                                                          - *10
+                                                          - *63
+                                                          - *62
+                                                          - *72
+                                                          - *71
+                                                          revealed: true
+                                                          checked: false
+                                                        - *63
+                                                        - *72
+                                                        - *19
+                                                        - *10
+                                                        revealed: true
+                                                        checked: false
+                                                      - *2
+                                                      - *12
+                                                      - *3
+                                                      revealed: true
+                                                      checked: true
+                                                    - *71
+                                                    - *12
+                                                    - *3
+                                                    - *11
+                                                    - *13
+                                                    - *2
+                                                    - *4
+                                                    revealed: true
+                                                    checked: true
+                                                  - *70
+                                                  - *13
+                                                  - *4
+                                                  - *12
+                                                  - *14
+                                                  - *3
+                                                  - *5
+                                                  revealed: true
+                                                  checked: true
+                                                - *69
+                                                - *14
+                                                - *5
+                                                - *13
+                                                - *15
+                                                - *4
+                                                - *6
+                                                revealed: true
+                                                checked: true
+                                              - *68
+                                              - *15
+                                              - *6
+                                              - *14
+                                              - *16
+                                              - *5
+                                              - *7
+                                              revealed: true
+                                              checked: false
+                                            - *67
+                                            - *16
+                                            - *7
+                                            - *15
+                                            - *17
+                                            - *6
+                                            - *8
+                                            revealed: false
+                                            checked: false
+                                          - *66
+                                          - *17
+                                          - *8
+                                          - *16
+                                          - *18
+                                          - *7
+                                          - *9
+                                          revealed: false
+                                          checked: false
+                                        - *65
+                                        - *18
+                                        - *9
+                                        - *17
+                                        - *64
+                                        - *8
+                                        - *73
+                                        revealed: true
+                                        checked: false
+                                      - *64
+                                      - *73
+                                      - *18
+                                      - *9
+                                      revealed: true
+                                      checked: true
+                                    - *74
+                                    - *66
+                                    - *75
+                                    revealed: true
+                                    checked: true
+                                  - *66
+                                  - *75
+                                  - *67
+                                  - *65
+                                  - *76
+                                  - *74
+                                  revealed: true
+                                  checked: false
+                                - *67
+                                - *76
+                                - *68
+                                - *66
+                                - *77
+                                - *75
+                                revealed: true
+                                checked: false
+                              - *68
+                              - *77
+                              - *69
+                              - *67
+                              - *78
+                              - *76
+                              revealed: true
+                              checked: false
+                            - *69
+                            - *78
+                            - *70
+                            - *68
+                            - *79
+                            - *77
+                            revealed: true
+                            checked: false
+                          - *70
+                          - *79
+                          - *71
+                          - *69
+                          - *80
+                          - *78
+                          revealed: true
+                          checked: true
+                        - *71
+                        - *80
+                        - *10
+                        - *70
+                        - *1
+                        - *79
+                        revealed: true
+                        checked: true
+                      - *10
+                      - *1
+                      - *72
+                      - *71
+                      - *81
+                      - *80
+                      revealed: true
+                      checked: true
+                    - *72
+                    - *81
+                    - *10
+                    - *1
+                    revealed: true
+                    checked: true
+                  - *3
+                  revealed: true
+                  checked: true
+                - *80
+                - *3
+                - *2
+                - *4
+                revealed: true
+                checked: true
+              - *79
+              - *4
+              - *3
+              - *5
+              revealed: true
+              checked: true
+            - *78
+            - *5
+            - *4
+            - *6
+            revealed: true
+            checked: true
+          - *77
+          - *6
+          - *5
+          - *7
+          revealed: true
+          checked: true
+        - *76
+        - *7
+        - *6
+        - *8
+        revealed: true
+        checked: true
+      - *75
+      - *8
+      - *7
+      - *9
+      revealed: true
+      checked: true
+    - *74
+    - *9
+    - *8
+    - *73
+    revealed: true
+    checked: true
+  - *73
+  - *9
+  revealed: true
+  checked: true
+- *75
+- *76
+- *77
+- *78
+- *79
+- *80
+- *1
+- *81
+- *73
+- *9
+- *8
+- *7
+- *6
+- *5
+- *4
+- *3
+- *2
+- *65
+- *66
+- *67
+- *68
+- *69
+- *70
+- *71
+- *10
+- *72
+- *64
+- *18
+- *17
+- *16
+- *15
+- *14
+- *13
+- *12
+- *11
+- *56
+- *57
+- *58
+- *59
+- *60
+- *61
+- *62
+- *19
+- *63
+- *55
+- *27
+- *26
+- *25
+- *24
+- *23
+- *22
+- *21
+- *20
+- *46
+- *47
+- *48
+- *49
+- *50
+- *51
+- *52
+- *28
+- *54
+- *45
+- *36
+- *35
+- *34
+- *33
+- *32
+- *31
+- *30
+- *29
+- *44
+- *43
+- *42
+- *41
+- *40
+- *39
+- *38
+- *37
+- *53
